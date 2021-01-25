@@ -10,4 +10,6 @@ namespace algorithms {
 
 	void insertion_sort(vector<int> &vec);
 
+	void merge_sort(vector<int>& vec, int p, int r);
+
 }

@@ -22,8 +22,10 @@ int main() {
 	a.push_back(5);
 	a.push_back(0);
 
-	insertion_sort(a);
+	//insertion_sort(a);
+	merge_sort(a, 0, a.size() - 1);
 	print_vector(a);
+
 	
 	return 0;
 }
